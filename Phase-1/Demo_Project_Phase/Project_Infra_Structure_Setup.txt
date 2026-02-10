@@ -192,7 +192,7 @@ sudo apt install curl -y
 
 #Get the apt-key and then add the repository from which we will install containerd.
 
-curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add - -y
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
 sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
 
 #Update and then install the containerd package.
